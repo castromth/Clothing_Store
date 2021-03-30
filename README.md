@@ -1,6 +1,6 @@
-# loja_udemy
+# Clothing Store
 
-A new Flutter application.
+Flutter application.
 
 ## Getting Started
 
