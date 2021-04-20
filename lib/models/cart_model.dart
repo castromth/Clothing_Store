@@ -95,7 +95,7 @@ class CartModel extends Model{
       "status": 1
     });
     await FirebaseFirestore.instance.collection("users").doc(user.user.uid).collection("orders").doc(refOrder.id).set({
-      "id": refOrder
+      "id": refOrder.id
     });
 
     QuerySnapshot query = await FirebaseFirestore.instance.collection("users").doc(user.user.uid).collection("cart").get();
